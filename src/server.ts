@@ -1,4 +1,5 @@
-import { Application, Router, send } from "oak";
+/// <reference lib="deno.ns" />
+import { Application, Router, send } from "@oak/oak";
 
 const app = new Application();
 const router = new Router();
